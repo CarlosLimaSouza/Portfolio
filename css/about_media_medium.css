@@ -1,5 +1,4 @@
-@media screen and (min-width: 501px)
-              and (max-width: 800px){
+@media screen and (min-width: 501px) and (max-width: 800px) {
   .about-me__header {
     background-size: 530px;
     background-position: center 13em;
@@ -31,8 +30,8 @@
     padding-right: 5em;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
   }
   .about-me__biography__item {
     min-width: 340px;
@@ -61,18 +60,18 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .footer__copyright,
-  .footer-menu__list  {
+  .footer-menu__list {
     -webkit-box-flex: 4;
-        -ms-flex: 4;
-            flex: 4
+    -ms-flex: 4;
+    flex: 4;
   }
   .footer__social-btn {
     -webkit-box-flex: 5;
-        -ms-flex: 5;
-            flex: 5;
+    -ms-flex: 5;
+    flex: 5;
   }
 }
