@@ -53,15 +53,15 @@
   .about__info__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
   .about__title {
     -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
   }
   .about__img__container {
     background-color: #ff789e;
@@ -69,16 +69,16 @@
     margin-left: 0.5em;
     margin-right: 0.5em;
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
   }
   .about__img {
     box-sizing: border-box;
     margin: 0 auto;
     width: 100%;
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
     border-radius: 0;
   }
   .about__img__mobile {
@@ -89,8 +89,8 @@
     margin-right: 0.5em;
     min-width: 200px;
     -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
+    -ms-flex-order: 3;
+    order: 3;
     padding: 1em 1.5em 0;
     border-left: none;
   }
@@ -102,12 +102,12 @@
     border-bottom: 1px solid #fff;
   }
   .about__text__description:last-of-type {
-     font-size: 1.1em;
-   }
-   .about__btn {
-     padding-bottom: 2px;
-   }
-   /*** Portfolio ***/
+    font-size: 1.1em;
+  }
+  .about__btn {
+    padding-bottom: 2px;
+  }
+  /*** Portfolio ***/
   .portfolio {
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -127,7 +127,7 @@
     font-size: 1em;
   }
   .portfolio__nav__btn:before,
-  .portfolio__nav__btn:after  {
+  .portfolio__nav__btn:after {
     width: 116px;
   }
   .portfolio__items-container {
@@ -217,22 +217,22 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .footer__copyright {
     -webkit-box-flex: 4;
-        -ms-flex: 4;
-            flex: 4
+    -ms-flex: 4;
+    flex: 4;
   }
   .footer-menu__list {
     -webkit-box-flex: 4;
-        -ms-flex: 4;
-            flex: 4;
+    -ms-flex: 4;
+    flex: 4;
   }
   .footer__social-btn {
     -webkit-box-flex: 5;
-        -ms-flex: 5;
-            flex: 5;
+    -ms-flex: 5;
+    flex: 5;
   }
 }
