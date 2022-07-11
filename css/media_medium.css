@@ -1,23 +1,4 @@
 @media screen and (min-width: 480px) and (max-width: 1023px) {
-  .nav-menu__text {
-    display: none;
-  }
-  .nav-menu__list {
-    margin-left: -1em;
-  }
-  .nav-menu__email {
-    margin-left: 1.5em;
-    font-size: 1em;
-  }
-  .nav-menu__separator {
-    width: 82%;
-  }
-  .nav-menu__social-btn {
-    margin-left: 1em;
-  }
-  .nav-menu .fa-2x {
-    font-size: 1.9em;
-  }
   .header {
     height: 450px;
   }
@@ -97,30 +78,13 @@
     margin-left: 0.5em;
     margin-right: 0.5em;
   }
-  .about__btn {
-    margin-left: 0.5em;
-    margin-bottom: 1.5em;
-  }
+
   .portfolio__description {
     max-width: 90%;
   }
   .portfolio {
     padding-left: 1em;
     padding-right: 1em;
-  }
-  .portfolio__nav__container {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    padding: 0.5em 0;
-  }
-  .portfolio__nav__btn {
-    width: 116px;
-    margin: 0.5em 0.5em;
-    font-size: 1em;
-  }
-  .portfolio__nav__btn:before,
-  .portfolio__nav__btn:after {
-    width: 116px;
   }
   .portfolio__items-container {
     min-height: auto;

@@ -2,24 +2,7 @@
   .about__title {
     padding-top: 1.5em;
   }
-  /*** Navigation ***/
-  .nav-menu__list {
-    margin-left: -1em;
-  }
-  .nav-menu__text,
-  .nav-menu__email {
-    margin-left: 1.5em;
-    font-size: 1em;
-  }
-  .nav-menu__separator {
-    width: 82%;
-  }
-  .nav-menu__social-btn {
-    margin-left: 1em;
-  }
-  .nav-menu .fa-2x {
-    font-size: 1.9em;
-  }
+
   /*** Header ***/
   .header {
     height: 450px;
@@ -104,9 +87,6 @@
   .about__text__description:last-of-type {
     font-size: 1.1em;
   }
-  .about__btn {
-    padding-bottom: 2px;
-  }
   /*** Portfolio ***/
   .portfolio {
     padding-left: 0.5em;
@@ -115,20 +95,6 @@
   .portfolio__description {
     max-width: 90%;
     font-size: 1.2em;
-  }
-  .portfolio__nav__container {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    padding: 1em 0;
-  }
-  .portfolio__nav__btn {
-    width: 116px;
-    margin: 0.5em 0.3em;
-    font-size: 1em;
-  }
-  .portfolio__nav__btn:before,
-  .portfolio__nav__btn:after {
-    width: 116px;
   }
   .portfolio__items-container {
     min-height: auto;
