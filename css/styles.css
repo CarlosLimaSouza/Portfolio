@@ -317,6 +317,7 @@ a {
 .portfolio__item {
   display: block;
   margin: 0.5em;
+  height: 450px;
   width: 450px;
   background-color: #7078a9;
   position: relative;
@@ -333,7 +334,8 @@ a {
 }
 .portfolio__item__thumbnail {
   width: 100%;
-  height: auto;
+  height: 85%;
+  object-fit: cover;
   border-bottom: 1px solid #cfd2e2;
   -webkit-transform: translateY(0%);
   transform: translateY(0%);
