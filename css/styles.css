@@ -334,8 +334,9 @@ a {
 }
 .portfolio__item__thumbnail {
   width: 100%;
-  /* height: 85%; */
+  height: 85%;
   object-fit: cover;
+  object-position: top;
   border-bottom: 1px solid #cfd2e2;
   -webkit-transform: translateY(0%);
   transform: translateY(0%);
