@@ -1,4 +1,7 @@
 /* Global */
+html {
+  scroll-behavior: smooth;
+}
 .header,
 .main-container,
 .footer {
